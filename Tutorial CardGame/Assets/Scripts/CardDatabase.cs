@@ -8,11 +8,13 @@ public class CardDatabase : MonoBehaviour
 
     void Awake()
     {
-        cardList.Add(new Card(0, "None", 0, 0, "None"));
-        cardList.Add(new Card(1, "Human", 2, 1, "This is a human"));
-        cardList.Add(new Card(2, "Elf", 3, 3, "This is an elf"));
-        cardList.Add(new Card(3, "Dwarf", 4, 1, "This is a dwarf"));
-        cardList.Add(new Card(4, "Troll", 2, 5, "This is a troll"));
+        //Debug.Log("gonna add to list");
+        cardList.Add(new Card(0, "None", 0, 0, "Who?", Resources.Load<Sprite>("CohnJena") ));
+        cardList.Add(new Card(1, "King", 2, 1, "The pinnacle of all Muscles, King", Resources.Load<Sprite>("King") ));
+        cardList.Add(new Card(2, "MusclePhant", 3, 3, "Muscle Elephants boast great natural strength, those that strive for greater become nigh undefeatable", Resources.Load<Sprite>("MusclePhant") ));
+        cardList.Add(new Card(3, "MuscleGorillaInc", 4, 1, "All gorillas strive for Perfection. Few can achieve it.", Resources.Load<Sprite>("MuscleGorillaInc") ));
+        cardList.Add(new Card(4, "MuscleGorillaComplete", 2, 5, "At the pinnacle of all primates, the Muscle Gorilla stands proud.", Resources.Load<Sprite>("MuscleGorillaComplete") ));
+        //Debug.Log("length is " + cardList.Count);
     }
     
 }

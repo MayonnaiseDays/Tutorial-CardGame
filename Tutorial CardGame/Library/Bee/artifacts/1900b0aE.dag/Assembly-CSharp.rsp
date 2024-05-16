@@ -386,7 +386,9 @@
 -analyzer:"F:/Code/Unity/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Card.cs"
 "Assets/Scripts/CardDatabase.cs"
+"Assets/Scripts/CardSO.cs"
 "Assets/Scripts/DisplayCard.cs"
+"Assets/Scripts/DisplayCardSO.cs"
 -langversion:9.0
 
 /deterministic
