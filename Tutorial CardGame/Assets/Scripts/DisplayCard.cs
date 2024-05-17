@@ -23,6 +23,9 @@ public class DisplayCard : MonoBehaviour
     public TMP_Text descText;
     public Image artImage;
 
+    public bool cardBack;
+    //static means it can only be used once?
+    public static bool staticCardBack;
 
 
     // Start is called before the first frame update
@@ -48,7 +51,7 @@ public class DisplayCard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        staticCardBack = cardBack;
 
     }
 }
