@@ -388,6 +388,7 @@
 "Assets/Scripts/CardBack.cs"
 "Assets/Scripts/CardDatabase.cs"
 "Assets/Scripts/CardSO.cs"
+"Assets/Scripts/CardtoHand.cs"
 "Assets/Scripts/DisplayCard.cs"
 "Assets/Scripts/DisplayCardSO.cs"
 "Assets/Scripts/PlayerDeck.cs"
